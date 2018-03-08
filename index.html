@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link type="text/css" rel="stylesheet" href="css/main.css"/>
+</head>
+
+<body>
+<div class="head">
+	<a href="http://m.taobao.com" class="logo"><img src="img/logo.png"/></a>
+    <div class="search-int">
+    	<span>寻找宝贝店铺</span>
+    </div>
+</div>
+
+<div class="kk" id="kk">
+<div class="banner">
+	
+</div>
+  <div class="wrap-a">
+      <ul>
+          <li><a href="#">
+              <img src="img/01.png"/>
+              <p>天猫</p>
+          </a></li>
+         <li><a href="#">
+              <img src="img/02.png"/>
+              <p>聚划算</p>
+          </a></li>
+          <li><a href="#">
+              <img src="img/03.png"/>
+              <p>到家</p>
+          </a></li>
+          <li><a href="#">
+              <img src="img/04.png"/>
+              <p>外卖</p>
+          </a></li>
+            <li><a href="#">
+              <img src="img/05.png"/>
+              <p>充值</p>
+          </a></li>
+            <li><a href="#">
+              <img src="img/06.png"/>
+              <p>阿里旅行</p>
+          </a></li>
+            <li><a href="#">
+              <img src="img/07.png"/>
+              <p>领金币</p>
+          </a></li>
+            <li><a href="#">
+              <img src="img/08.png"/>
+              <p>分类</p>
+          </a></li>
+      </ul>
+  </div>
+  <div class="wrap-add-a">
+      <div class="wrap-add-a-left">
+          <img src="img/tt.png"/>
+      </div>
+      <div class="wrap-add-a-right">
+          <span>母婴</span>不美不出门！想偷懒可以穿这些连衣裙
+      </div>
+  </div>
+  <div class="wrap-b">
+      <div class="wrap-b-left">
+          <a href="#">
+              <img src="img/b01.jpg"/>
+          </a>
+      </div>
+      <div class="wrap-b-right">
+          <div class="top">
+              <a href="#"><img src="img/b-02.gif"/></a>
+          </div>
+          <div class="bottom">
+              <div class="left">
+                  <img src="img/b02.jpg"/>
+              </div>
+              <div class="right">
+                  <img src="img/b03.jpg"/>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="classify-a">
+      <div class="left"></div>
+      <div class="middle"><i></i>超实惠</div>
+      <div class="right"></div>
+  </div>
+  <div class="classify-a-01">
+  
+  </div>
+</div>
+<footer>
+	
+</footer>
+</body>
+</html>
+<script>
+
+setSize()
+window.addEventListener('resize',setSize,false);
+	var pixelRatio= 1/window.devicePixelRatio;
+	
+document.write('<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale='+pixelRatio+',minimum-scale='+pixelRatio+',maximum-scale='+pixelRatio+'"/>');
+function setSize(){
+
+var html=document.getElementsByTagName('html')[0]
+var htmlWidth=html.getBoundingClientRect().width;
+var kk=document.getElementById('kk');
+    
+    htmlWidth = htmlWidth >1080 ? 1080 : htmlWidth;
+	kk.style.width=htmlWidth+'px';
+	kk.style.margin='0 auto'
+html.style.fontSize=htmlWidth/16+'px';
+
+}
+
+
+</script>
